@@ -108,4 +108,4 @@ jobs:
           to: ${{ env.TELEGRAM_TO }}
           token: ${{ env.TELEGRAM_TOKEN }}
           message: |
-            CI/CD успешно выполнен!
+            Project passed all tested and pushed on Docker Hub!
